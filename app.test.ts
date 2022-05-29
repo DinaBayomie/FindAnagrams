@@ -17,8 +17,8 @@ it('read wordlist dictionary', async () => {
 it('retrieve the anagrams of "halal" from our dictionary, it should have more than 1 anagram', async () => {
     expect(getAnagram("halal")).toHaveProperty("size",7); 
 });
-it('retrieve the anagrams of "amateurish" from our dictionary, it should have no anagrams', async () => {
-    expect(getAnagram("amateurish")).toEqual(noAnagrammsg); 
+it('retrieve the anagrams of "place" from our dictionary, it should have no anagrams', async () => {
+    expect(getAnagram("place")).toEqual(noAnagrammsg); 
 });
 
 
