@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "lib": ["ES6","ES7"],
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
