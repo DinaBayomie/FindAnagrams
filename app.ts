@@ -31,7 +31,7 @@ export async function readDictionary() {
         if (dictionary == null) {
             dictionary = new Map<string, Set<string>>();
             let promise = new Promise(async (resolve, reject) => {
-                fs.readFile("./data/wordlist.txt", "utf8", (err, data) => {
+                fs.readFile("./data/SampleWordList.txt", "utf8", (err, data) => {
                     if (err) {
                         console.log("Error reading file from disk:", err);
                     }
